@@ -1,6 +1,6 @@
 <?php
 
-include('test1.php');
+include '../test1.php';
 
 $user_id = $_POST['user_id'];
 $name = $_POST['name'];

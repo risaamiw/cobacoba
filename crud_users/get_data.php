@@ -1,6 +1,6 @@
 <?php
 
-include('test1.php');
+include '../test1.php';
 
 $sql = "SELECT name, username, role_id FROM tb_users";
 $result = mysqli_query($koneksi, $sql);
